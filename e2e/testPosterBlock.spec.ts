@@ -1,5 +1,5 @@
 import { test, expect, Page, Locator } from '@playwright/test';
-import { PosterBlock } from '../Classes/PosterBlock2';
+import { PosterBlock } from '../Classes/PosterBlock';
 
 test('Тестирование постерных блоков', async ({ page }) => {
 	await page.goto('https://example.com');

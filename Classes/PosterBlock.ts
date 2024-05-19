@@ -1,6 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 
-class PosterBlock {
+export class PosterBlock {
 	// Локаторы для элементов блока
 	readonly title: Locator;
 	readonly link: Locator;
